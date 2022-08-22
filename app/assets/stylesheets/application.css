@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+ body{
+  background: rgb(0,164,255);
+  background: linear-gradient(90deg, rgb(37 116 194) 0%, rgba(45,222,61,0.8225665266106442) 39%);
+ }
+ .container{
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+ }
+
+a {
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h1,h2{
+  padding: 30px;
+  color: white;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
